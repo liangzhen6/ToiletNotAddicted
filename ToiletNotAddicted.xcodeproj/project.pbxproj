@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC191C0286FE6C00040D56B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC191BF286FE6C00040D56B /* AppDelegate.m */; };
+		0AC191C3286FE6C00040D56B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC191C2286FE6C00040D56B /* SceneDelegate.m */; };
+		0AC191C6286FE6C00040D56B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC191C5286FE6C00040D56B /* ViewController.m */; };
+		0AC191C9286FE6C00040D56B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC191C7286FE6C00040D56B /* Main.storyboard */; };
+		0AC191CB286FE6C10040D56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC191CA286FE6C10040D56B /* Assets.xcassets */; };
+		0AC191CE286FE6C10040D56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC191CC286FE6C10040D56B /* LaunchScreen.storyboard */; };
+		0AC191D1286FE6C10040D56B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC191D0286FE6C10040D56B /* main.m */; };
+		0AC191DB286FE6C10040D56B /* ToiletNotAddictedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC191DA286FE6C10040D56B /* ToiletNotAddictedTests.m */; };
+		0AC191E5286FE6C10040D56B /* ToiletNotAddictedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC191E4286FE6C10040D56B /* ToiletNotAddictedUITests.m */; };
+		0AC191E7286FE6C10040D56B /* ToiletNotAddictedUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC191E6286FE6C10040D56B /* ToiletNotAddictedUITestsLaunchTests.m */; };
+		0AC191F5287047E10040D56B /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC191F4287047E10040D56B /* AudioPlayer.m */; };
+		0AC191F728704F160040D56B /* alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0AC191F628704F160040D56B /* alert.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AC191D7286FE6C10040D56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC191B3286FE6C00040D56B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC191BA286FE6C00040D56B;
+			remoteInfo = ToiletNotAddicted;
+		};
+		0AC191E1286FE6C10040D56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC191B3286FE6C00040D56B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC191BA286FE6C00040D56B;
+			remoteInfo = ToiletNotAddicted;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC191BB286FE6C00040D56B /* ToiletNotAddicted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToiletNotAddicted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC191BE286FE6C00040D56B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AC191BF286FE6C00040D56B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AC191C1286FE6C00040D56B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0AC191C2286FE6C00040D56B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0AC191C4286FE6C00040D56B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AC191C5286FE6C00040D56B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AC191C8286FE6C00040D56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AC191CA286FE6C10040D56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AC191CD286FE6C10040D56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AC191CF286FE6C10040D56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC191D0286FE6C10040D56B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AC191D6286FE6C10040D56B /* ToiletNotAddictedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToiletNotAddictedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC191DA286FE6C10040D56B /* ToiletNotAddictedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToiletNotAddictedTests.m; sourceTree = "<group>"; };
+		0AC191E0286FE6C10040D56B /* ToiletNotAddictedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToiletNotAddictedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC191E4286FE6C10040D56B /* ToiletNotAddictedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToiletNotAddictedUITests.m; sourceTree = "<group>"; };
+		0AC191E6286FE6C10040D56B /* ToiletNotAddictedUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToiletNotAddictedUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0AC191F3287047E10040D56B /* AudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		0AC191F4287047E10040D56B /* AudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		0AC191F628704F160040D56B /* alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alert.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC191B8286FE6C00040D56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC191D3286FE6C10040D56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC191DD286FE6C10040D56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC191B2286FE6C00040D56B = {
+			isa = PBXGroup;
+			children = (
+				0AC191BD286FE6C00040D56B /* ToiletNotAddicted */,
+				0AC191D9286FE6C10040D56B /* ToiletNotAddictedTests */,
+				0AC191E3286FE6C10040D56B /* ToiletNotAddictedUITests */,
+				0AC191BC286FE6C00040D56B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC191BC286FE6C00040D56B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC191BB286FE6C00040D56B /* ToiletNotAddicted.app */,
+				0AC191D6286FE6C10040D56B /* ToiletNotAddictedTests.xctest */,
+				0AC191E0286FE6C10040D56B /* ToiletNotAddictedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC191BD286FE6C00040D56B /* ToiletNotAddicted */ = {
+			isa = PBXGroup;
+			children = (
+				0AC191F628704F160040D56B /* alert.mp3 */,
+				0AC191BE286FE6C00040D56B /* AppDelegate.h */,
+				0AC191BF286FE6C00040D56B /* AppDelegate.m */,
+				0AC191C1286FE6C00040D56B /* SceneDelegate.h */,
+				0AC191C2286FE6C00040D56B /* SceneDelegate.m */,
+				0AC191C4286FE6C00040D56B /* ViewController.h */,
+				0AC191C5286FE6C00040D56B /* ViewController.m */,
+				0AC191F3287047E10040D56B /* AudioPlayer.h */,
+				0AC191F4287047E10040D56B /* AudioPlayer.m */,
+				0AC191C7286FE6C00040D56B /* Main.storyboard */,
+				0AC191CA286FE6C10040D56B /* Assets.xcassets */,
+				0AC191CC286FE6C10040D56B /* LaunchScreen.storyboard */,
+				0AC191CF286FE6C10040D56B /* Info.plist */,
+				0AC191D0286FE6C10040D56B /* main.m */,
+			);
+			path = ToiletNotAddicted;
+			sourceTree = "<group>";
+		};
+		0AC191D9286FE6C10040D56B /* ToiletNotAddictedTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC191DA286FE6C10040D56B /* ToiletNotAddictedTests.m */,
+			);
+			path = ToiletNotAddictedTests;
+			sourceTree = "<group>";
+		};
+		0AC191E3286FE6C10040D56B /* ToiletNotAddictedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC191E4286FE6C10040D56B /* ToiletNotAddictedUITests.m */,
+				0AC191E6286FE6C10040D56B /* ToiletNotAddictedUITestsLaunchTests.m */,
+			);
+			path = ToiletNotAddictedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AC191BA286FE6C00040D56B /* ToiletNotAddicted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC191EA286FE6C10040D56B /* Build configuration list for PBXNativeTarget "ToiletNotAddicted" */;
+			buildPhases = (
+				0AC191B7286FE6C00040D56B /* Sources */,
+				0AC191B8286FE6C00040D56B /* Frameworks */,
+				0AC191B9286FE6C00040D56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToiletNotAddicted;
+			productName = ToiletNotAddicted;
+			productReference = 0AC191BB286FE6C00040D56B /* ToiletNotAddicted.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AC191D5286FE6C10040D56B /* ToiletNotAddictedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC191ED286FE6C10040D56B /* Build configuration list for PBXNativeTarget "ToiletNotAddictedTests" */;
+			buildPhases = (
+				0AC191D2286FE6C10040D56B /* Sources */,
+				0AC191D3286FE6C10040D56B /* Frameworks */,
+				0AC191D4286FE6C10040D56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC191D8286FE6C10040D56B /* PBXTargetDependency */,
+			);
+			name = ToiletNotAddictedTests;
+			productName = ToiletNotAddictedTests;
+			productReference = 0AC191D6286FE6C10040D56B /* ToiletNotAddictedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AC191DF286FE6C10040D56B /* ToiletNotAddictedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC191F0286FE6C10040D56B /* Build configuration list for PBXNativeTarget "ToiletNotAddictedUITests" */;
+			buildPhases = (
+				0AC191DC286FE6C10040D56B /* Sources */,
+				0AC191DD286FE6C10040D56B /* Frameworks */,
+				0AC191DE286FE6C10040D56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC191E2286FE6C10040D56B /* PBXTargetDependency */,
+			);
+			name = ToiletNotAddictedUITests;
+			productName = ToiletNotAddictedUITests;
+			productReference = 0AC191E0286FE6C10040D56B /* ToiletNotAddictedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC191B3286FE6C00040D56B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0AC191BA286FE6C00040D56B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					0AC191D5286FE6C10040D56B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0AC191BA286FE6C00040D56B;
+					};
+					0AC191DF286FE6C10040D56B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0AC191BA286FE6C00040D56B;
+					};
+				};
+			};
+			buildConfigurationList = 0AC191B6286FE6C00040D56B /* Build configuration list for PBXProject "ToiletNotAddicted" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AC191B2286FE6C00040D56B;
+			productRefGroup = 0AC191BC286FE6C00040D56B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC191BA286FE6C00040D56B /* ToiletNotAddicted */,
+				0AC191D5286FE6C10040D56B /* ToiletNotAddictedTests */,
+				0AC191DF286FE6C10040D56B /* ToiletNotAddictedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AC191B9286FE6C00040D56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC191CE286FE6C10040D56B /* LaunchScreen.storyboard in Resources */,
+				0AC191CB286FE6C10040D56B /* Assets.xcassets in Resources */,
+				0AC191C9286FE6C00040D56B /* Main.storyboard in Resources */,
+				0AC191F728704F160040D56B /* alert.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC191D4286FE6C10040D56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC191DE286FE6C10040D56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC191B7286FE6C00040D56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC191C6286FE6C00040D56B /* ViewController.m in Sources */,
+				0AC191C0286FE6C00040D56B /* AppDelegate.m in Sources */,
+				0AC191F5287047E10040D56B /* AudioPlayer.m in Sources */,
+				0AC191D1286FE6C10040D56B /* main.m in Sources */,
+				0AC191C3286FE6C00040D56B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC191D2286FE6C10040D56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC191DB286FE6C10040D56B /* ToiletNotAddictedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC191DC286FE6C10040D56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC191E5286FE6C10040D56B /* ToiletNotAddictedUITests.m in Sources */,
+				0AC191E7286FE6C10040D56B /* ToiletNotAddictedUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AC191D8286FE6C10040D56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC191BA286FE6C00040D56B /* ToiletNotAddicted */;
+			targetProxy = 0AC191D7286FE6C10040D56B /* PBXContainerItemProxy */;
+		};
+		0AC191E2286FE6C10040D56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC191BA286FE6C00040D56B /* ToiletNotAddicted */;
+			targetProxy = 0AC191E1286FE6C10040D56B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AC191C7286FE6C00040D56B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC191C8286FE6C00040D56B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AC191CC286FE6C10040D56B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC191CD286FE6C10040D56B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AC191E8286FE6C10040D56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AC191E9286FE6C10040D56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AC191EB286FE6C10040D56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R6M88U6UD2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToiletNotAddicted/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "马桶防沉迷";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.ToiletNotAddicted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0AC191EC286FE6C10040D56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToiletNotAddicted/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "马桶防沉迷";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.ToiletNotAddicted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0AC191EE286FE6C10040D56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.ToiletNotAddictedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToiletNotAddicted.app/ToiletNotAddicted";
+			};
+			name = Debug;
+		};
+		0AC191EF286FE6C10040D56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.ToiletNotAddictedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToiletNotAddicted.app/ToiletNotAddicted";
+			};
+			name = Release;
+		};
+		0AC191F1286FE6C10040D56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.ToiletNotAddictedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToiletNotAddicted;
+			};
+			name = Debug;
+		};
+		0AC191F2286FE6C10040D56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.ToiletNotAddictedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToiletNotAddicted;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC191B6286FE6C00040D56B /* Build configuration list for PBXProject "ToiletNotAddicted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC191E8286FE6C10040D56B /* Debug */,
+				0AC191E9286FE6C10040D56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC191EA286FE6C10040D56B /* Build configuration list for PBXNativeTarget "ToiletNotAddicted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC191EB286FE6C10040D56B /* Debug */,
+				0AC191EC286FE6C10040D56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC191ED286FE6C10040D56B /* Build configuration list for PBXNativeTarget "ToiletNotAddictedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC191EE286FE6C10040D56B /* Debug */,
+				0AC191EF286FE6C10040D56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC191F0286FE6C10040D56B /* Build configuration list for PBXNativeTarget "ToiletNotAddictedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC191F1286FE6C10040D56B /* Debug */,
+				0AC191F2286FE6C10040D56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC191B3286FE6C00040D56B /* Project object */;
+}
